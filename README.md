@@ -7,7 +7,7 @@ A native iOS app creating a custom hexadecimal keyboard.
 
 **Inspiration**\
 See programmatic version on GitHub repository [Hexadecimal Keyboard](https://github.com/PepperoniJoe/HexadecimalKeyboard)\
-Based on the design provided [by David Mulder as seen here](https://ux.stackexchange.com/a/58605/128044)\\
+Based on the design provided [by David Mulder as seen here](https://ux.stackexchange.com/a/58605/128044)\
 Button styling inspired by Apple's standard keyboard.
 
 <img src="GitHub-Images/HexKeyboard.gif" width="300">
