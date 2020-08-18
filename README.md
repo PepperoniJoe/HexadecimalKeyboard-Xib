@@ -1,27 +1,36 @@
 # Hexadecimal Keyboard (using Xib file)
 [![Xcode version](https://img.shields.io/badge/xcode-12%20-brightgreen)](https://developer.apple.com/xcode/)
 [![Language](https://img.shields.io/badge/swift-5.0-orange.svg)](https://developer.apple.com/swift)
-[![Language](https://img.shields.io/badge/swiftUI-iOS14-orange.svg)](https://developer.apple.com/xcode/swiftUI)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://mit-license.org)
 
-An example iOS14 app that allows the app user to login to Fitbit to obtain their personal fitness information
+A native iOS app creating a custom hexadecimal keyboard.
 
-<img src="GitHub-Images/HexKeyboardXib.gif" width="300">
+**Inspiration**\
+See programmatic version on GitHub repository [Hexadecimal Keyboard](https://github.com/PepperoniJoe/HexadecimalKeyboard)
+Based on the design provided [by David Mulder as seen here](https://ux.stackexchange.com/a/58605/128044)\
+Button styling inspired by Apple's standard keyboard.
 
-**Requirements:** \
-Requires a developer account with dev.fitbit.com and registration of an app to obtain the necessary client ID.\
-The client ID is needed to access Fitbit's user login authorization process. 
+<img src="GitHub-Images/HexKeyboard.gif" width="300">
+
+**Hexadecimal Layout**(Dark and Light modes)\
+<img src="GitHub-Images/HexDarkMode.png" width="300">\
+<img src="GitHub-Images/HexLightMode.png" width="300">
+
+**Landscape mode**\
+<img src="GitHub-Images/Landscape.png" width="500">
 
 **Technical Info:** \
-Xcode 12 project written in Swift 5 for iOS 14\
+Xcode12  project written in Swift 5 for iOS\
+Inputview, UIKeyInput, Textfield custom keyboard\
+System colors for dark/light modes
 
 **See Also:** \
 [Quickies - a variety of example iOS apps](https://github.com/PepperoniJoe/Quickies)\
  [Make Icons Swiftly - used to generate app icon sets
  ](https://github.com/PepperoniJoe/Make-Icons-Swiftly)
-
+ 
 **Author:** \
 Marcy Vernon [@MarcyVernon](https://twitter.com/MarcyVernon)
 
 **License:** \
-"Hexadecimal Keyboard (using Xib file)" is under the MIT license. See [LICENSE](/LICENSE) for more information.
+"Hexadecimal Keyboard (Using Xib file)" is under the MIT license. See [LICENSE](/LICENSE) for more information.

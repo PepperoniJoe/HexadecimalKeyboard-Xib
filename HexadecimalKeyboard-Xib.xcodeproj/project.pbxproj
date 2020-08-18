@@ -18,6 +18,10 @@
 		939A252224EC6CD6001B50D1 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939A252024EC6CD6001B50D1 /* Keyboard.swift */; };
 		939A252324EC6CD6001B50D1 /* Keyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 939A252124EC6CD6001B50D1 /* Keyboard.xib */; };
 		939A252624EC6D31001B50D1 /* NibLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939A252524EC6D31001B50D1 /* NibLoader.swift */; };
+		939A252C24EC9076001B50D1 /* HexLightMode.png in Resources */ = {isa = PBXBuildFile; fileRef = 939A252824EC9075001B50D1 /* HexLightMode.png */; };
+		939A252D24EC9076001B50D1 /* HexKeyboard.gif in Resources */ = {isa = PBXBuildFile; fileRef = 939A252924EC9076001B50D1 /* HexKeyboard.gif */; };
+		939A252E24EC9076001B50D1 /* HexDarkMode.png in Resources */ = {isa = PBXBuildFile; fileRef = 939A252A24EC9076001B50D1 /* HexDarkMode.png */; };
+		939A252F24EC9076001B50D1 /* Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 939A252B24EC9076001B50D1 /* Landscape.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +39,10 @@
 		939A252024EC6CD6001B50D1 /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
 		939A252124EC6CD6001B50D1 /* Keyboard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Keyboard.xib; sourceTree = "<group>"; };
 		939A252524EC6D31001B50D1 /* NibLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoader.swift; sourceTree = "<group>"; };
+		939A252824EC9075001B50D1 /* HexLightMode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HexLightMode.png; sourceTree = "<group>"; };
+		939A252924EC9076001B50D1 /* HexKeyboard.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = HexKeyboard.gif; sourceTree = "<group>"; };
+		939A252A24EC9076001B50D1 /* HexDarkMode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HexDarkMode.png; sourceTree = "<group>"; };
+		939A252B24EC9076001B50D1 /* Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Landscape.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +126,10 @@
 		939A251224EC6995001B50D1 /* GitHub-Images */ = {
 			isa = PBXGroup;
 			children = (
+				939A252A24EC9076001B50D1 /* HexDarkMode.png */,
+				939A252924EC9076001B50D1 /* HexKeyboard.gif */,
+				939A252824EC9075001B50D1 /* HexLightMode.png */,
+				939A252B24EC9076001B50D1 /* Landscape.png */,
 			);
 			path = "GitHub-Images";
 			sourceTree = "<group>";
@@ -197,10 +209,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				939A252F24EC9076001B50D1 /* Landscape.png in Resources */,
 				939A250724EC6901001B50D1 /* LaunchScreen.storyboard in Resources */,
 				939A252324EC6CD6001B50D1 /* Keyboard.xib in Resources */,
+				939A252D24EC9076001B50D1 /* HexKeyboard.gif in Resources */,
 				939A250424EC6901001B50D1 /* Assets.xcassets in Resources */,
+				939A252C24EC9076001B50D1 /* HexLightMode.png in Resources */,
 				939A251424EC69AA001B50D1 /* LICENSE in Resources */,
+				939A252E24EC9076001B50D1 /* HexDarkMode.png in Resources */,
 				939A251F24EC6C34001B50D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
